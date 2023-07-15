@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <P>CALCULATOR</P>
+        <div id="full">
+            <div id="dis">0</div>
+            <div id="key">
+                <div id="k1">
+                    <button class="b" onclick="display('7')">7</button>
+                    <button class="b" onclick="display('8')">8</button>
+                    <button class="b" onclick="display('9')">9</button>
+                    <button class="b" onclick="display('/')">/</button>
+                </div>
+                <div id="k2">
+                    <button class="b" onclick="display('4')">4</button>
+                    <button class="b" onclick="display('5')">5</button>
+                    <button class="b" onclick="display('6')">6</button>
+                    <button class="b" onclick="display('*')">*</button>
+                </div>
+                <div id="k3">
+                    <button class="b" onclick="display('1')">1</button>
+                    <button class="b" onclick="display('2')">2</button>
+                    <button class="b" onclick="display('3')">3</button>
+                    <button class="b" onclick="display('-')">-</button>
+                </div>
+                <div id="k4">
+                    <button class="b" onclick="back()">&larr;</button>
+                    <button class="b" onclick="display('0')">0</button>
+                    <button class="b" onclick="display('.')">.</button>
+                    <button class="b" onclick="display('+')">+</button>
+                </div>
+                <div id="k5">
+                    <button id="b1" onclick="clearVal()">CE</button>
+                    <button id="b2" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
